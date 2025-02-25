@@ -1,0 +1,17 @@
+{
+  "name": "qatw-primeira-edicao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JulliusBass/qatw-primeira-edicao.git",
+  "author": "Julio Cesar <jullius_bass@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4"
+  },
+  "scripts": {},
+  "dependencies": {
+    "bullmq": "^5.41.5",
+    "pg-promise": "^11.10.2"
+  }
+}
