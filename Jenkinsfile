@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Node.js Deps') {
             steps {
-                sh 'yarn install'
+                sh 'npm install'
             }
         }
         stage('E2E Tests') {
             steps {
-                sh 'yarn playwright test'
+                sh 'npx playwright test'
             }
         }   
     }
