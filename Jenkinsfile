@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker{
-            image 'pull mcr.microsoft.com/playwright:v1.50.1-noble'
+            image 'mcr.microsoft.com/playwright:v1.50.1-noble'
             args '--network qatw-primeira-edicao_skynet'
         }
     }
