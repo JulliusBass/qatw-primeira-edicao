@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { obterCodigo2FA } from '../support/db';
 import { LoginPage } from '../pages/LoginPage';
-import { DashPage } from '../pages/DashPAge';
+import { DashPage } from '../pages/DashPage';
 import { cleanJobs, getJob } from '../support/redis';
 // import { LoginActions } from '../actions/LoginActions';
 
