@@ -11,6 +11,8 @@
   },
   "scripts": {},
   "dependencies": {
+    "allure-commandline": "^2.33.0",
+    "allure-playwright": "^3.2.0",
     "bullmq": "^5.41.5",
     "pg-promise": "^11.10.2"
   }
